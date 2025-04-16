@@ -1,0 +1,79 @@
+body {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+* {
+  /* border: 1px yellow solid; */
+}
+
+header h1 {
+  color: gold;
+  display: flex;
+  justify-content: center;
+}
+
+form[id="event"] {
+  width: 100%;
+}
+
+form[id="event"] * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+form[id="event"] label {
+  color: gold;
+  font-size: 20px;
+}
+
+form[id="event"] label p {
+  display: flex;
+  justify-content: center;
+}
+
+form[id="event"] input {
+  width: 25%;
+}
+
+form[id="event"] label[id="createText"] p/ {
+  color: rgb(241, 208, 208);
+  align-self: center;
+}
+
+section[id="eventList"] {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+section[id="eventList"] li {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+section[id="eventList"] li * {
+  align-self: center;
+}
+
+section[id="eventList"] li h1 {
+  color: gold;
+  align-self: center;
+}
+
+section[id="eventList"] li date {
+  color: rgb(138, 138, 44);
+}
+
+section[id="eventList"] li p {
+  color: rgb(236, 236, 157);
+}
+
+section[id="eventList"] li button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
